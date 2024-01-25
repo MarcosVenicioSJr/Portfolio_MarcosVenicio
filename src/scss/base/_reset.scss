@@ -9,11 +9,16 @@ body {
   background: var(--black);
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
   font-size: 22px;
 }
 
-h1, h2, h3, a{
+h1,
+h2,
+h3,
+a {
   color: var(--white);
   text-decoration: none;
 }

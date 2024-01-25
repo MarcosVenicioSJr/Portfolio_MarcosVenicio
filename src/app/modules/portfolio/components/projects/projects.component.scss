@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
   background: var(--black-010);
 
   h2 {
@@ -25,21 +26,21 @@
       width: 160px;
       height: 160px;
 
-      button{
+      button {
         width: 100%;
         height: 100%;
         cursor: pointer;
+
+        img{
+          height: 50%;
+          height: 50%;
+        }
+
         background: var(--black-010);
         border: 2px solid var(--primary);
         border-radius: 7px;
         transition: 0.5s;
-
-        img{
-          width: 40%;
-          height: 50%;
-        }
-
-        &:hover{
+        &:hover {
           background: var(--primary);
         }
       }
@@ -47,8 +48,10 @@
   }
 
   @media (max-width: 750px) {
-    ul li{
-      flex: 100%;
+    ul {
+      li {
+        flex: 100%;
+      }
     }
   }
 }
