@@ -21,6 +21,10 @@ export class KnowledgeComponent {
     {
       src: '../../../../../assets/icons/knowledge/typescript_logo_icon_144782.svg',
       alt: 'Conhecimento em TypeScript'
+    },
+    {
+      src: '../../../../../assets/icons/knowledge/icons8-logo-java-coffee-cup.svg',
+      alt: 'Conhecimento em Java'
     }
   ])
 }
